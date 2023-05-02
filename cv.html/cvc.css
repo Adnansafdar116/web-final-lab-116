@@ -1,0 +1,108 @@
+#body{
+
+overflow-x: hidden;
+position: relative;
+left: -8px;
+
+
+}
+
+#a1,#a2,#a3,#a4{
+position: relative;
+left: 50px;
+top: 25px;
+
+}
+
+#image{
+width: 400px;
+
+}
+#ad2{
+background-color: black;
+    color: white;
+    POSITION:RELATIVE;
+   top :-1337PX; 
+   left:400PX;
+   
+    width: 1118px;
+    height: 542px;
+   
+}
+#h1,#h2,#para{
+    position: relative;
+    top: 180px;
+}
+#h1,#h2{
+    text-align: center;
+}
+#para{
+    top: 230px;
+    left: 50px;
+    width: 1000px;
+    font-size: 20px;
+    text-align: justify;
+    float: left;
+
+}
+#ad1{
+    position: relative;
+    width: 400px;
+    height:750px ;
+    background-color:black;
+    top: -24px;
+    color: white;
+}
+#a2{
+    width: 350px;
+}
+#add3{
+    position: relative;
+    background-color: gray;
+    width: 1118PX;
+    height:750PX ;
+    top: -1357px;
+    left: 400px;
+}
+#add4{
+    position: relative;
+    bottom: -60px;
+    left: 85px;
+
+}
+#add2{
+    background-color: #282828;
+    position: relative;
+    width:1518px ;
+    height: 150px;
+    bottom: 1357px;
+
+}
+#pic1{
+    position: relative;
+    width: 60px;
+    left: 250px;
+    bottom:-45px ;
+}
+
+#pic2{
+    position: relative;
+    width: 60px;
+    left:500px ;
+    bottom:14px ;
+}
+#pic3{
+    position: relative;
+    width: 60px;
+    left:750px ;
+    bottom:80px ;
+}
+#pic4{
+    position: relative;
+    width: 70px;
+    left:1000px ;
+    bottom: 145px;
+}
+
+   
+
