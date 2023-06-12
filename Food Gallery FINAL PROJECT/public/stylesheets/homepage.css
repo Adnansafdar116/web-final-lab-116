@@ -1,0 +1,499 @@
+@media only screen and (min-width: 600px) {
+
+    /* For desktop: */
+    .col-1 {
+        width: 8.33%;
+    }
+
+    .col-2 {
+        width: 16.66%;
+    }
+
+    .col-3 {
+        width: 25%;
+    }
+
+    .col-4 {
+        width: 33.33%;
+    }
+
+    .col-5 {
+        width: 41.66%;
+    }
+
+    .col-6 {
+        width: 50%;
+    }
+
+    .col-7 {
+        width: 58.33%;
+    }
+
+    .col-8 {
+        width: 66.66%;
+    }
+
+    .col-9 {
+        width: 75%;
+    }
+
+    .col-10 {
+        width: 83.33%;
+    }
+
+    .col-11 {
+        width: 91.66%;
+    }
+
+    .col-12 {
+        width: 100%;
+    }
+}
+
+
+
+
+#menu {
+    position: absolute;
+    top: 800px;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 600px;
+    color: black;
+}
+
+#heading1 {
+    position: absolute;
+    /* top: 1725px; */
+    top: 1700px;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 575px;
+    color: black;
+}
+
+#heading2 {
+    position: absolute;
+    top: 2270px;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 590px;
+    color: black;
+}
+
+#heading3 {
+    position: absolute;
+    top: 2970px;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 600px;
+    color: black;
+}
+
+#heading4 {
+    position: absolute;
+    top: 3970px;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 600px;
+    color: black;
+}
+
+#heading5 {
+    position: absolute;
+    top: 4500px;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 600px;
+    color: black;
+}
+
+#card {
+    position: absolute;
+    top: 880px;
+    width: 100%;
+    height: 500px;
+    right: 0px;
+}
+
+#spin {
+    position: relative;
+    left: 560px;
+    top: -26px;
+    color: black;
+}
+
+#c1 {
+
+    position: absolute;
+    top: 1800px;
+    left: 25px;
+}
+
+
+
+#c2 {
+    position: absolute;
+    top: 1800px;
+    left: 350px;
+}
+
+
+#c3 {
+    position: absolute;
+    top: 1800px;
+    left: 685px;
+}
+
+#c4 {
+    position: absolute;
+    top: 1800px;
+    left: 1010px;
+}
+
+#c5 {
+    position: absolute;
+    top: 2350px;
+    left: 25px;
+}
+
+#c6 {
+    position: absolute;
+    top: 2350px;
+    left: 350px;
+}
+
+#c7 {
+    position: absolute;
+    top: 2350px;
+    left: 685px;
+}
+
+#c8 {
+    position: absolute;
+    top: 2350px;
+    left: 1010px;
+}
+
+#c9 {
+
+    position: absolute;
+    top: 3050px;
+    left: 25px;
+}
+
+
+
+#c10 {
+    position: absolute;
+    top: 3050px;
+    left: 350px;
+}
+
+
+#c11 {
+    position: absolute;
+    top: 3050px;
+    left: 685px;
+}
+
+#c12 {
+    position: absolute;
+    top: 3050px;
+    left: 1010px;
+}
+
+#c13 {
+
+    position: absolute;
+    top: 3500px;
+    left: 25px;
+}
+
+#c14 {
+    position: absolute;
+    top: 3500px;
+    left: 350px;
+}
+
+
+#c15 {
+    position: absolute;
+    top: 3500px;
+    left: 685px;
+}
+
+#c16 {
+    position: absolute;
+    top: 3500px;
+    left: 1010px;
+}
+
+#c17 {
+
+    position: absolute;
+    top: 4035px;
+    left: 25px;
+}
+
+#c18 {
+    position: absolute;
+    top: 4035px;
+    left: 350px;
+}
+
+
+#c19 {
+    position: absolute;
+    top: 4035px;
+    left: 685px;
+}
+
+#c20 {
+    position: absolute;
+    top: 4035px;
+    left: 1010px;
+}
+
+
+
+#c21 {
+
+    position: absolute;
+    top: 4570px;
+    left: 25px;
+}
+
+#c22 {
+    position: absolute;
+    top: 4570px;
+    left: 350px;
+}
+
+
+#c23 {
+    position: absolute;
+    top: 4570px;
+    left: 685px;
+}
+
+#c24 {
+    position: absolute;
+    top: 4570px;
+    left: 1010px;
+}
+
+#car11 {
+
+    width: 1345px;
+    position: absolute;
+    left: 0px;
+    height: 100px;
+
+}
+
+#footerr {
+    position: absolute;
+    top: 5350px;
+    width: 1345px;
+    left: 0px
+}
+
+
+#anp {
+
+    position: absolute;
+    top: 5120px;
+    width: 1345px;
+    left: 0px
+}
+
+#headd {
+    bottom: 180px;
+    position: absolute;
+    left: 480px
+}
+
+#pl {
+
+    position: absolute;
+    left: 550px;
+    top: 165px
+}
+
+#lp {
+
+    position: absolute;
+    left: 0px
+}
+
+#edit {
+
+    font-size:
+        10px
+}
+
+#ss1 {
+    position: absolute;
+    left: 200px;
+    top: 5px
+}
+
+
+
+#ss2 {
+    position: absolute;
+    left: 200px;
+    top: 5px
+}
+
+
+
+
+#ss3 {
+    position: absolute;
+    left: 200px;
+    top: 5px
+}
+
+
+
+
+
+
+#ss4 {
+    position: absolute;
+    left: 200px;
+    top: 5px
+}
+
+
+
+
+
+#ss5 {
+    position: absolute;
+    left: 200px;
+    top: 5px
+}
+
+
+
+
+
+#ss6 {
+    position: absolute;
+    left: 200px;
+    top: 5px
+}
+
+
+
+
+#ss7 {
+    position: absolute;
+    left: 210px;
+    top: 5px
+}
+
+#ss8 {
+    position: absolute;
+    left: 210px;
+    top: 5px
+}
+
+#ss9 {
+    position: absolute;
+    left: 210px;
+    top: 5px
+}
+
+#ss10 {
+    position: absolute;
+    left: 200px;
+    top: 5px
+}
+
+
+
+
+
+
+
+
+#ss11 {
+    position: absolute;
+    left: 200px;
+    top: 5px
+}
+
+#ss12 {
+    position: absolute;
+    left: 200px;
+    top: 5px
+}
+
+
+/*REGiSTER*/
+
+#reg {
+
+    position: absolute;
+    top: 230px;
+    left: 42%
+}
+
+
+#su {
+
+    position: absolute;
+    top: 160px;
+    left: 43.8%
+}
+
+
+
+
+
+/*Login*/
+
+#log {
+
+    position: absolute;
+    top: 230px;
+    left: 42%
+}
+
+
+#li {
+
+    position: absolute;
+    top: 160px;
+    left: 45%
+}
+
+
+#bc {
+    background-color: bisque;
+}
+
+
+
+/*Floating button*/
+
+#myBtn:hover {
+    background-color: #2b2b2b;
+}
+
+#MyBtn {
+
+    z-index: 99;
+    border: none;
+    outline: none;
+    color: white;
+    /* Text color */
+    cursor: pointer;
+    position: absolute;
+    top: 5480px;
+    left: 1150px
+}

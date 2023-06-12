@@ -1,0 +1,20 @@
+extends ../layout
+
+block content
+  div#anp
+  h1#headd Add Product Manually
+  form(action="/products/add",method="post")
+    .form-group#pn
+      label(for="name") <span style="font-size:20px ;color:green " > Product Name
+      input#name(type="text", class="form-control", name="name")
+    .form-group#pp
+      label(for="price") <span style="font-size:20px;color:green" > Product Price
+      input#price(type="text", class="form-control", name="price")
+
+      input#pl(type="submit", class="btn btn-info" value="Add to Products List")
+  script(src='/stylesheets/prodjs.js')
+  link(rel='stylesheet' href='./stylesheets/homepage.css')
+
+
+
+

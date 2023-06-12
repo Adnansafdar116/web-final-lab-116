@@ -1,0 +1,43 @@
+head
+  //- <link rel="stylesheet" href="../../stylesheets/navbar.css">
+  link(rel="stylesFheet", href="/stylesheets/navbar.css")
+body
+<nav id="nav"  style='color: bisque;width: 1364px;position: absolute;top: 0px; right:2px ;' href='/'  class="navbar navbar-expand-lg navbar-light bg-dark">
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a style="color: grey;color: bisque;"  class="nav-link" href="/">Food Gallery <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a style="color: grey;"  class="nav-link" href="/#menu">Menu</a>
+      </li>
+      <li class="nav-item">
+        <a style="color: grey;"  class="nav-link" href="/products">Products</a>
+      </li>
+      <li class="nav-item">
+        <a style="color: grey;"  class="nav-link" href="/cart">Shopping Cart</a>
+      </li>
+      <li class="nav-item">
+        <a style="color: grey;"  class="nav-link" href="/#footerr">Contact Us</a>
+      </li>
+      if !user
+        <li class="nav-item">
+          <a style="color: red;"  class="nav-link" href="/register">Register</a>
+        </li>
+        <li class="nav-item">
+          <a style="color: red;"  class="nav-link" href="/login">Login</a>
+        </li>
+      if user
+        <li class="nav-item">
+          <a style="color: red;"  class="nav-link" href="/logout">Logout</a>
+        </li>
+    </ul>
+
+</div>
+
+
+<form class="d-flex" style="right:5px; position:absolute " role="search">
+  <input class="form-control me-2 " type="search" placeholder="Search" aria-label="Search">
+  a <button  id="sbtn" class="btn btn-outline-danger" type="submit"> Search</button> 
+</form>
+</nav>

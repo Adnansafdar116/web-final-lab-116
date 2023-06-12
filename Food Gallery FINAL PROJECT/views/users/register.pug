@@ -1,0 +1,23 @@
+extends ../layout
+block content
+  h1#su Register
+  div#reg
+    form#mail(action="/register",method="post" ,name="mail" )
+      .form-group
+        label(for="name") Name
+        input#name(type="text", class="form-control", name="name")
+
+
+      .form-group
+        label(for="email") Email
+        input#email(type="text", class="form-control", name="email")
+
+
+      .form-group
+        label(for="password") Password
+        input#price(type="password", class="form-control", name="password")
+
+
+      input(type="submit", class="btn btn-info" value="Register" onclick="ValidateEmail(document.mail.email)" )
+    script(src='/stylesheets/validate.js')
+    link(rel='stylesheet' href='./stylesheets/homepage.css')

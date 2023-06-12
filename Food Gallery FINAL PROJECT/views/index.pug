@@ -1,0 +1,416 @@
+
+doctype html
+html
+  head
+  meta(charset='UTF-8')
+  meta(http-equiv='X-UA-Compatible' content='IE=edge')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0') 
+
+  <!-- CSS only -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  <!-- JS, Popper.js, and jQuery -->
+
+  script(src='/stylesheets/prodjs.js')
+  script(src='/stylesheets/button.js')
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+link(rel="stylesheet", href="/stylesheets/carousal.css")
+
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  <!-- JS, Popper.js, and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  script(src='carosal.js')
+  link(rel='stylesheet', href='/stylesheets/style.css')
+
+  link(rel='stylesheet' href='./stylesheets/homepage.css')
+  // Font Awesome
+  link(href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css' rel='stylesheet')
+  // Google Fonts
+  link(href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap' rel='stylesheet')
+  // MDB
+  link(href='https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.0.1/mdb.min.css' rel='stylesheet')
+  script(src='/stylesheets/prodjs.js')
+  script(language="JavaScript", type="text/javascript", src="/js/jquery-1.2.6.min.js")
+  script(language="JavaScript", type="text/javascript", src="/js/jquery-ui-personalized-1.5.2.packed.js")
+
+  title Food Gallery
+
+  body
+    //- include ./partials/navbar
+    include layout
+    block content
+
+div#car11
+  div#carouselExampleIndicators(class="carousel slide", data-ride="carousel")
+    ol(class="carousel-indicators")
+      li(data-target="#carouselExampleIndicators", data-slide-to="0", class="active")
+      li(data-target="#carouselExampleIndicators", data-slide-to="1")
+      li(data-target="#carouselExampleIndicators", data-slide-to="2")
+    div(class="carousel-inner")
+      div(class="carousel-item active")
+        img(class="d-block w-100", src="pic1.jpg", alt="First slide")
+      div(class="carousel-item")
+        img(class="d-block w-100", src="pic2.jpg", alt="Second slide")
+      div(class="carousel-item")
+        img(class="d-block w-100", src="pic3.jpg", alt="Third slide")
+    a(class="carousel-control-prev", href="#carouselExampleIndicators", role="button", data-slide="prev")
+      span(class="carousel-control-prev-icon", aria-hidden="true")
+      span(class="sr-only") Previous
+    a(class="carousel-control-next", href="#carouselExampleIndicators", role="button", data-slide="next")
+      span(class="carousel-control-next-icon", aria-hidden="true")
+      span(class="sr-only") Next
+
+
+
+
+
+
+
+  h3#menu MENU
+
+// CARDS
+#card 
+  img(src='' alt='')
+  .card(style='width: 18rem;position: absolute;\
+  left:20px ;\
+  float: left')
+    img.card-img-top(src='pic4.jpg' alt='...')
+    .card-body#cdd1
+      h5.card-title PASTRY
+      p.card-text
+        | Pastry is baked food made with a dough of flour, water and shortening that may be savoury or sweetened. Sweetened pastries are often described as bakers&apos; confectionery.
+    ul.list-group.list-group-flush
+      li.list-group-item#cdd2
+        |<h6 style="font-weight: bold;"> One Piece  RS/<span >220</span> 
+        a#ss1(href="#headd", class="btn btn-primary") Add
+
+      li.list-group-item#cdd3
+        <h6 style="font-weight: bold;"> Three Piece  RS/<span >420</span> 
+        a#ss2(href="#headd", class="btn btn-primary") Add
+      li.list-group-item#cdd4
+        |<h6 style="font-weight: bold;"> Six Pieces  RS/<span >600</span> 
+        a#ss3(href="#headd", class="btn btn-primary") Add
+
+
+
+
+
+  .card#cd2(style='width: 18rem;position: absolute;\
+  left:350px ;\
+  float: left')
+    img.card-img-top(src='pic5.jpg' alt='...')
+    .card-body#cdd5
+      h5.card-title BAE
+      p.card-text
+        | Fresh juicy berries mixed into a soft vanilla cupcake topped with creamy whipped cream cheese frosting and more fresh berries to top off these Berries and Cream Cupcakes.
+    ul.list-group.list-group-flush
+      li.list-group-item#cdd6
+        <h6 style="font-weight: bold;"> One BAE  RS/<span >320</span> 
+        a#ss4(href="#headd", class="btn btn-primary") Add
+      li.list-group-item#cdd7
+        |<h6 style="font-weight: bold;"> Three BAE  RS/<span >450</span> 
+        a#ss5(href="#headd", class="btn btn-primary") Add
+      li.list-group-item#cdd8
+        |<h6 style="font-weight: bold;"> Six BAE  RS/<span >500</span> 
+        a#ss6(href="#headd", class="btn btn-primary") Add
+
+
+  #crd3.card(style='width: 18rem;position: absolute;\
+  left:680px ;\
+  float: left')
+    img.card-img-top(src='pic6.jpg' alt='...')
+    .card-body#cdd9
+      h5.card-title Cup Cakes
+      p.card-text
+        | A cupcake is a small cake designed to serve one person, which may be baked in a small thin paper or aluminum cup. As with larger cakes, frosting and fruite etc.
+    ul.list-group.list-group-flush
+      li.list-group-item#cdd10
+        |<h6 style="font-weight: bold;"> One Cup Cake  RS/<span >280</span> 
+        a#ss7(href="#headd", class="btn btn-primary") Add
+      li.list-group-item#cdd11
+        <h6 style="font-weight: bold;">Three Cup Cake  RS/<span >420</span> 
+        a#ss8(href="#headd", class="btn btn-primary") Add
+      li.list-group-item#cdd12
+        |<h6 style="font-weight: bold;"> Six Cup Cakes  RS/<span >600</span> 
+        a#ss9(href="#headd", class="btn btn-primary") Add
+
+
+
+
+  #crd4.card(style='width: 18rem;position: absolute;\
+  left:1020px ;\
+  float: left')
+    img.card-img-top(src='pic7.jpg' alt='...')
+    .card-body#cdd10
+      h5.card-title Cup Flakes
+      p.card-text
+        | A Cup Flake is a small cake designed to serve one person, which may be baked in a small thin paper or aluminum cup. As with larger cakes, frosting and fruit.
+    ul.list-group.list-group-flush
+      li.list-group-item#cdd13
+        <h6 style="font-weight: bold;"> One TRIO  RS/<span >700</span> 
+        a#ss10(href="#headd", class="btn btn-primary") Add
+      li.list-group-item#cdd14
+        |<h6 style="font-weight: bold;"> Two TRIO  RS/<span >1200</span> 
+        a#ss10(href="#headd", class="btn btn-primary") Add
+      li.list-group-item#cdd15
+        |<h6 style="font-weight: bold;"> Three TRIO  RS/<span >1800</span> 
+        a#ss12(href="#headd", class="btn btn-primary") Add
+
+
+
+  //spinner
+  #spin.spinner-border.text-secondary(role='status')
+    span.visually-hidden Loading...
+
+
+
+
+// Products CARDS
+h3#heading1 Brownies
+div
+#c1.card(style='width: 18rem;')
+  img.card-img-top(src='Nutella.jpg' alt='...')
+  .card-body
+    h5.card-title#cc Nutella </h5>
+    p.card-text
+      b(style='font-size: 20px;') RS <span>140</span>
+    a.btn.btn-primary#c(href='#headd') Add to Products
+
+
+
+
+#c2.card(style='width: 18rem;')
+  img.card-img-top(src='Mars.jpg' alt='...')
+  .card-body
+    h5.card-title Mars Chocolate
+    p.card-text
+      b(style='font-size: 20px;') RS <span>140</span>
+    a.btn.btn-primary#d(href='#headd')  Add to Products
+
+
+#c3.card(style='width: 18rem;')
+  img.card-img-top(src='Belgian.jpg' alt='...')
+  .card-body
+    h5.card-title Belgian Matt
+    p.card-text
+      b(style='font-size: 20px;') RS<span>140</span>
+    a.btn.btn-primary#e(href='#headd') Add to Products
+
+
+#c4.card(style='width: 18rem;')
+  img.card-img-top(src='Peanut.jpg' alt='...')
+  .card-body
+    h5.card-title Peanut Butter Stack
+    p.card-text
+      b(style='font-size: 20px;') RS<span>140</span>
+    a.btn.btn-primary#f(href='#headd') Add to Products
+
+
+h3#heading2 Sundae
+
+
+#c5.card(style='width: 18rem;')
+  img.card-img-top(src='red.jpg' alt='...')
+  .card-body
+    h5.card-title Red Velvet Sundae
+    p.card-text
+      b(style='font-size: 20px;') RS<span>350<span>
+    a.btn.btn-primary#g(href='#headd') Add to Products
+
+
+#c6.card(style='width: 18rem;')
+  img.card-img-top(src='nutellat.jpg' alt='...')
+  .card-body
+    h5.card-title Nutella Sundae
+    p.card-text
+      b(style='font-size: 20px;') RS<span>350</span>
+    a.btn.btn-primary#h(href='#headd') Add to Products
+
+
+#c7.card(style='width: 18rem;')
+  img.card-img-top(src='lotus.jpg' alt='...')
+  .card-body
+    h5.card-title Lotus Sundae
+    p.card-text
+      b(style='font-size: 20px;') RS<span>350</span>
+    a.btn.btn-primary#i(href='#headd') Add to Products
+
+
+#c8.card(style='width: 18rem;')
+  img.card-img-top(src='lotust.jpg' alt='...')
+  .card-body
+    h5.card-title Lotus Three Milk Sundae
+    p.card-text
+      b(style='font-size: 20px;') RS<span>350</span>
+    a.btn.btn-primary#j(href='#headd') Add to Products
+
+
+
+// CARDS2
+h3#heading3 Cakes
+#c9.card(style='width: 18rem;')
+  img.card-img-top(src='Belgianc.jpg' alt='...')
+  .card-body
+    h5.card-title Belgian Chocolate Cake
+    p.card-text
+      b(style='font-size: 20px;') RS<span>2100</span>
+    a.btn.btn-primary#k(href='#headd') Add to Products
+#c10.card(style='width: 18rem;')
+  img.card-img-top(src='ferero.jpg' alt='...')
+  .card-body
+    h5.card-title Ferrero Rocher Cake
+    p.card-text
+      b(style='font-size: 20px;') RS<span>2300</span>
+    a.btn.btn-primary#l(href='#headd') Add to Products
+#c11.card(style='width: 18rem;')
+  img.card-img-top(src='Fereroc.jpg' alt='...')
+  .card-body
+    h5.card-title Ferrero Classic Cake
+    p.card-text
+      b(style='font-size: 20px;') RS<span>1800</span>
+    a.btn.btn-primary#m(href='#headd') Add to Products
+#c12.card(style='width: 18rem;')
+  img.card-img-top(src='Salted.jpg' alt='...')
+  .card-body
+    h5.card-title Salted Caramel Cake
+    p.card-text
+      b(style='font-size: 20px;') RS<span>1900</span>
+    a.btn.btn-primary#n(href='#headd') Add to Products
+#c13.card(style='width: 18rem;')
+  img.card-img-top(src='German.jpg' alt='...')
+  .card-body
+    h5.card-title German Fudge Cake
+    p.card-text
+      b(style='font-size: 20px;') RS<span>1400</span>
+    a.btn.btn-primary#o(href='#headd') Add to Products
+#c14.card(style='width: 18rem;')
+  img.card-img-top(src='Malt.jpg' alt='...')
+  .card-body
+    h5.card-title Malteser Cake
+    p.card-text
+      b(style='font-size: 20px;') RS<span>2400</span>
+    a.btn.btn-primary#p(href='#headd') Add to Products
+#c15.card(style='width: 18rem;')
+  img.card-img-top(src='kitkat.jpg' alt='...')
+  .card-body
+    h5.card-title Kit Kat Cake
+    p.card-text
+      b(style='font-size: 20px;') RS<span>2000</span>
+    a.btn.btn-primary#q(href='#headd') Add to Products
+#c16.card(style='width: 18rem;')
+  img.card-img-top(src='Coffee.jpg' alt='...')
+  .card-body
+    h5.card-title Coffee Cake
+    p.card-text
+      b(style='font-size: 20px;') RS<span>1600</span>
+    a.btn.btn-primary#r(href='#headd') Add to Products
+
+
+h1#heading4 Cookies    
+#c17.card(style='width: 18rem;')
+  img.card-img-top(src='Lotc.jpg' alt='...')
+  .card-body
+    h5.card-title Lotus Cookie
+    p.card-text
+      b(style='font-size: 20px;') RS<span>250</span>
+    a.btn.btn-primary#s(href='#headd') Add to Products
+#c18.card(style='width: 18rem;')
+  img.card-img-top(src='triplec.jpg' alt='...')
+  .card-body
+    h5.card-title Triple Chocolate Cookie
+    p.card-text
+      b(style='font-size: 20px;') RS<span>250</span>
+    a.btn.btn-primary#t(href='#headd') Add to Products
+#c19.card(style='width: 18rem;')
+  img.card-img-top(src='nfc.jpg' alt='...')
+  .card-body
+    h5.card-title Nutella Filled Cookie
+    p.card-text
+      b(style='font-size: 20px;') RS<span>250</span>
+    a.btn.btn-primary#u(href='#headd') Add to Products
+#c20.card(style='width: 18rem;')
+  img.card-img-top(src='rvc.jpg' alt='...')
+  .card-body
+    h5.card-title Red Velvet Cookie
+    p.card-text
+      b(style='font-size: 20px;') RS<span>250</span>
+    a.btn.btn-primary#v(href='#headd') Add to Products
+h3#heading5 Desserts
+#c21.card(style='width: 18rem;')
+  img.card-img-top(src='walnut.jpg' alt='...')
+  .card-body
+    h5.card-title Walnut Cup Pie
+    p.card-text
+      b(style='font-size: 20px;') RS<span>170</span>
+    a.btn.btn-primary#w(href='#headd') Add to Products
+#c22.card(style='width: 18rem;')
+  img.card-img-top(src='creme.jpg' alt='...')
+  .card-body
+    h5.card-title Cr&egrave;me Brulee
+    p.card-text
+      b(style='font-size: 20px;') RS<span>170</span>
+    a.btn.btn-primary#x(href='#headd') Add to Products
+#c23.card(style='width: 18rem;')
+  img.card-img-top(src='Mango.jpg' alt='...')
+  .card-body
+    h5.card-title Mango Cheese Cake
+    p.card-text
+      b(style='font-size: 20px;') RS<span>350</span>
+    a.btn.btn-primary#y(href='#headd') Add to Products
+#c24.card(style='width: 18rem;')
+  img.card-img-top(src='cheese.jpg' alt='...')
+  .card-body
+    h5.card-title Lotus Cheese
+    p.card-text
+      b(style='font-size: 20px;') RS<span>350</span>
+    a.btn.btn-primary#z(href='#headd') Add to Products
+
+
+div#anp
+  h1#headd Add to Product List
+  form(action="/products/add",method="post")
+    .form-group#pn
+      label(for="name") <span style="font-size:20px ;color:green " > Product Name
+      input#name(type="text", class="form-control", name="name")
+    .form-group#pp
+      label(for="price") <span style="font-size:20px;color:green" > Product Price
+      input#price(type="text", class="form-control", name="price")
+      input#pl(type="submit", class="btn btn-info" value="Add to Products List" )
+
+
+
+// footer
+
+#footerr
+  footer.text-center.text-white(style='background-color: #0a4275;')
+    .container.p-4.pb-0
+      section
+        p.d-flex.justify-content-center.align-items-center
+          span.me-3 Register for free
+          a.button.btn.btn-outline-light.btn-rounded(href='/register')(type='button') 
+            |Sign up!
+    section.mb-4
+      a.btn.btn-outline-light.btn-floating.m-1(href='#!' role='button')
+        i.fab.fa-facebook-f
+      a.btn.btn-outline-light.btn-floating.m-1(href='#!' role='button')
+        i.fab.fa-twitter
+      a.btn.btn-outline-light.btn-floating.m-1(href='#!' role='button')
+        i.fab.fa-google
+      a.btn.btn-outline-light.btn-floating.m-1(href='#!' role='button')
+        i.fab.fa-instagram
+      a.btn.btn-outline-light.btn-floating.m-1(href='#!' role='button')
+        i.fab.fa-linkedin-in
+      a.btn.btn-outline-light.btn-floating.m-1(href='#!' role='button')
+        i.fab.fa-github
+    .text-center.p-3(style='background-color: rgba(0, 0, 0, 0.2);')
+      | &copy; Phone Number:
+      a.text-white(href='#') +923360481777
+a.button.btn.btn-outline-dark.btn-rounded#MyBtn(onclick="topFunction()",type='button') Back to top ↟
+

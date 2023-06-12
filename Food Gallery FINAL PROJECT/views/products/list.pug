@@ -1,0 +1,26 @@
+extends ../layout
+
+block content
+  .row
+    .col-sm-8
+      h1 Your Products List
+    .col-sm-4
+      a.button.btn.btn-outline-dark.btn-rounded(href="/products/add", class="btn btn-success float-right") Add Product Manually
+  table.table(style="border: solid;border-width: 1px ")
+    thead
+      tr
+        th Name
+        th Price (RS)
+        th(style="position:relative; left:80px") <span>Operations</span>
+    tbody
+      each product in products
+        tr
+          td=product.name
+          td=product.price
+          td
+            a.button.btn.btn-outline-dark.btn-rounded(href="/products/delete/"+product._id, )(style="color:black; ") Delete
+            a.button.btn.btn-outline-dark.btn-rounded(href="/products/edit/"+product._id,)(style="color:black;") Edit
+            a.button.btn.btn-outline-dark.btn-rounded(href="/products/cart/"+product._id,)(style="color:black;") Add To Cart
+        .col-sm-4
+      a.button.btn.btn-outline-dark.btn-rounded(href="/#menu")(style="position:relative; left:955px; top:-5px") Back To Menu
+

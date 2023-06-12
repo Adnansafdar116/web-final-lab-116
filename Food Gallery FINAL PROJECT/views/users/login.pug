@@ -1,0 +1,15 @@
+extends ../layout
+
+block content
+  h1#li Login
+  div#log
+    form(action="/login",method="post")        
+      .form-group
+        label(for="email") Email
+        input#email(type="text", class="form-control", name="email" value="adnan@gmail.com")
+      .form-group
+        label(for="password") Password
+        input#price(type="password", class="form-control", name="password", value="12345")
+      input(type="submit", class="btn btn-info" value="Login")
+      link(rel='stylesheet' href='./stylesheets/homepage.css')
+
